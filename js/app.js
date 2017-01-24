@@ -55,8 +55,11 @@ function valueMenu ( ) {
   pElement.style.fontSize = "20px";
 }
 */
-
-
+function redFace ( ) {
+	var pElem = document.getElementById ('drink');
+	pElem.style.color = 'red';
+	pElem.style.fontSize = '20px';
+}
 
 //6. Peanut Butter Cup Oreos
 /*Create a function `showPrice` that will add the price of `$5.55` inside the paragraph with the id `price` after hovering your mouse over the paragraph.*/
