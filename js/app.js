@@ -25,13 +25,26 @@ function lessContent() {
 //3. Tacocat, The Original Palindrome King
 /*Create a function named `zoom` that will increase the font size of the paragraph with the id of `biggie` after hovering your mouse over it. Increae the font size to 150%*/
 
-
+function zoom() {
+	biggie.style.fontSize = "150%";
+}
 
 //4. McDonalds
 /*Create a variable name menu and assign it an array of three of your favorite items at McDonald's.
 
 Next, create a function named valueMenu that will display your favorite items in the paragraph the the id of `menu` after clicking on the showMenu paragraph.*/
 
+var menuList = ["Burger", "Fries", "Shake"];
+
+function valueMenu() {
+	var menuText = "";
+	for (var i = 0; i < menuList.length; i++) {
+		menuText += menuList[i] + ", ";
+	}
+	menuText = menuText.slice(0, menuText.length - 2);
+	menuText += ".";
+	menu.innerHTML = menuText;
+}
 
 
 //5. Gin.
