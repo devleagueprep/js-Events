@@ -57,6 +57,12 @@ function valueMenu() {
 }
 */
 
+function redFace() {
+	var pElement = document.getElementById("drink");
+	pElement.style.color = "red";
+	pElement.style.fontSize = "20px";
+}
+
 
 
 //6. Peanut Butter Cup Oreos
