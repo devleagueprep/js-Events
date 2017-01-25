@@ -102,3 +102,15 @@ function quoteGen ( ) {
 //9. Unlock the Secret to Financial Freedom
 /*Create an event listener that will show and hide the message when clickig on the button.
 */
+
+showHide.addEventListener("click", toggle);
+
+function toggle() {
+	var elem = document.getElementById('showmoney');
+	if (elem.style.display === "none") {
+		elem.style.display = "initial";
+	}
+	else {
+		elem.style.display = "none";
+	}
+}
