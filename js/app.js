@@ -109,8 +109,7 @@ function toggle() {
 	var elem = document.getElementById('showmoney');
 	if (elem.style.display === "none") {
 		elem.style.display = "initial";
-	}
-	else {
+	} else {
 		elem.style.display = "none";
 	}
 }
